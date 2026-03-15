@@ -15,12 +15,16 @@ const OurTarget = () => {
           viewport={{ once: true }}
           className=" flex flex-col items-center gap-0.5 pl-4" 
         >
-          <h2 className="text-[#024a56] font-black text-xl tracking-tight">আমাদের লক্ষ্য</h2>
-          <div className="flex items-center gap-2 opacity-30">
-            <span className="w-8 h-[1px] bg-[#024a56]"></span>
-            <span className="text-[8px]">✦</span>
-            <span className="w-8 h-[1px] bg-[#024a56]"></span>
+          <h2 className="text-[#024a56] font-black text-[16px] tracking-tight">আমাদের লক্ষ্য</h2>
+          <div className="flex items-center gap-1 opacity-40 mt-1">
+          <span className="w-8 h-[1px] bg-[#024a56]"></span>
+          <div className="flex gap-0.5">
+            {[...Array(5)].map((_, i) => (
+              <span key={i} className="w-0.5 h-0.5 border border-[#024a56] rounded-full"></span>
+            ))}
           </div>
+          <span className="w-8 h-[1px] bg-[#024a56]"></span>
+        </div>
         </motion.div>
 
         <div className="flex items-center justify-between">

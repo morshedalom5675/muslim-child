@@ -1,15 +1,15 @@
 import React from "react";
 import Hero from "../../components/HomePage/Hero";
 import OurTarget from "../../components/HomePage/OurTarget";
-import SyllabusSection from "../../components/HomePage/SyllabusSection";
 import Features from "../../components/HomePage/Features";
+import SyllabusHome from "../../components/HomePage/SyllabusHome";
 
 const Home = () => {
   return (
     <div>
       <Hero></Hero>
       <OurTarget></OurTarget>
-      <SyllabusSection></SyllabusSection>
+      <SyllabusHome></SyllabusHome>
       <Features></Features>
     </div>
   );
