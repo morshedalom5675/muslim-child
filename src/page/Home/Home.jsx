@@ -6,6 +6,7 @@ import SyllabusHome from "../../components/HomePage/SyllabusHome";
 import ClassInfo from "../../components/HomePage/ClassInfo";
 import ClassSchedule from "../../components/HomePage/ClassSchedul";
 import FeeInfo from "../../components/HomePage/FeeInfo";
+import OurTeachers from "../../components/HomePage/OurTeachers";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <ClassInfo></ClassInfo>
       <ClassSchedule></ClassSchedule>
       <FeeInfo></FeeInfo>
+      <OurTeachers></OurTeachers>
     </div>
   );
 };

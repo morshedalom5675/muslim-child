@@ -9,9 +9,11 @@ const FeeInfo = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="py-8 px-4 bg-white overflow-hidden mobile-device select-none"
+      className="pt-0 pb-0 bg-white overflow-hidden mobile-device select-none relative"
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between gap-3">
+      
+      <div className="w-full h-[28px] bg-[#024a56] mb-6"></div>
+      <div className="max-w-7xl mx-auto flex items-center justify-between gap-3 px-4 mb-6">
         {/* Left Side: Payment Image */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -40,19 +42,17 @@ const FeeInfo = () => {
             <h2 className="text-[#024a56] font-black text-[15px] leading-tight">
               ফি সংক্রান্ত তথ্য
             </h2>
-            <p className="text-[11px] text-gray-400 font-bold">
+            <p className="text-[11px] text-gray-400 font-bold ">
               Fee Related Information
             </p>
+            
             <div className="w-full h-[1px] bg-gray-100 mt-3 relative">
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white px-2">
-                <div className="flex items-center gap-1 opacity-40 mt-1">
+                <div className="flex items-center gap-1 opacity-40">
                   <span className="w-8 h-[1px] bg-[#024a56]"></span>
                   <div className="flex gap-0.5">
                     {[...Array(5)].map((_, i) => (
-                      <span
-                        key={i}
-                        className="w-0.5 h-0.5 border border-[#024a56] rounded-full"
-                      ></span>
+                      <span key={i} className="w-0.5 h-0.5 bg-[#024a56] rounded-full"></span>
                     ))}
                   </div>
                   <span className="w-8 h-[1px] bg-[#024a56]"></span>
@@ -63,16 +63,12 @@ const FeeInfo = () => {
 
           {/* Fee Boxes */}
           <div className="flex gap-2">
-            {/* Admission Fee */}
             <div className="flex-1 border border-gray-100 rounded-xl p-2 text-center bg-[#F9FAFB]">
-              <p className="text-[#555] text-[10px] font-bold mb-1">
-                এডমিশন ফি
-              </p>
+              <p className="text-[#555] text-[10px] font-bold mb-1">এডমিশন ফি</p>
               <h3 className="text-[#024a56] font-black text-[18px]">৩০০৳</h3>
               <p className="text-[#E67E22] text-[8px] font-bold mt-1">অগ্নিম</p>
             </div>
 
-            {/* Monthly Fee */}
             <div className="flex-1 border border-gray-100 rounded-xl p-2 text-center bg-[#F9FAFB]">
               <p className="text-[#555] text-[10px] font-bold mb-1">মাসিক ফি</p>
               <h3 className="text-[#024a56] font-black text-[18px]">১০২০৳</h3>
@@ -83,6 +79,9 @@ const FeeInfo = () => {
           </div>
         </motion.div>
       </div>
+
+      
+      <div className="w-full h-[28px] bg-[#024a56]"></div>
     </motion.section>
   );
 };
