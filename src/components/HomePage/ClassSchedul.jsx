@@ -30,17 +30,17 @@ const ClassSchedule = () => {
               <Clock size={13} />
             </div>
             <div>
-              <h2 className="text-[#024a56] font-black text-[12px] leading-tight">
+              <h2 className="text-[#024a56] font-big text-[20px] leading-tight">
                 ক্লাস শিডিউল
               </h2>
-              <p className="text-[10px] text-gray-400 font-bold">
+              <p className="text-[10px] text-gray-400 font-bold font-secondBig">
                 Class Schedule
               </p>
             </div>
           </div>
 
           {/* Groups Section */}
-          <div className="space-y-2.5">
+          <div className="space-y-2.5 font-small">
             {/* Group A - Single Line */}
             <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar">
               <span className="bg-[#8B5E3C] text-white text-[6.5px] md:text-[9px] font-semibold md:font-bold px-1.5 py-0.5 rounded-md flex-shrink-0">
@@ -79,30 +79,30 @@ const ClassSchedule = () => {
           {/* Time Slots */}
           <div className="grid grid-cols-2 gap-2 mt-4 pt-3 border-t border-dashed border-gray-200">
             <div>
-              <p className="text-[9px] font-black text-[#024a56] mb-0.5">
+              <p className="text-[9px] font-black font-small text-[#024a56] mb-0.5">
                 বিকাল:
               </p>
-              <p className="text-[7.5px] text-gray-600 font-bold leading-tight">
+              <p className="text-[7.5px] text-gray-600 font-bold font-small leading-tight">
                 ০৩:০০—০৪:০০ PM
               </p>
-              <p className="text-[7.5px] text-gray-600 font-bold leading-tight">
+              <p className="text-[7.5px] text-gray-600 font-bold font-small leading-tight">
                 ০৪:০০—০৫:০০ PM
               </p>
             </div>
             <div>
-              <p className="text-[9px] font-black text-[#024a56] mb-0.5">
+              <p className="text-[9px] font-black font-small text-[#024a56] mb-0.5">
                 রাত:
               </p>
-              <p className="text-[7.5px] text-gray-600 font-bold leading-tight">
+              <p className="text-[7.5px] text-gray-600 font-bold font-small leading-tight">
                 ০৭:০০—০৮:০০ PM
               </p>
-              <p className="text-[7.5px] text-gray-600 font-bold leading-tight">
+              <p className="text-[7.5px] text-gray-600 font-bold font-small leading-tight">
                 ০৯:০০—১০:০০ PM
               </p>
             </div>
           </div>
 
-          <p className="text-[7px] text-[#0e8e83] mt-3 font-semibold leading-tight italic">
+          <p className="text-[7px] text-[#0e8e83] mt-3 font-semibold font-small leading-tight italic">
             * আলোচনা সাপেক্ষে সুবিধামতো সময়েও ক্লাসের সুযোগ আছে।
           </p>
         </motion.div>

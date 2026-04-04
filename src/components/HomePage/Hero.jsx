@@ -83,10 +83,10 @@ const Hero = () => {
             className="space-y-1"
           >
             <motion.div variants={slideInLeft} transition={{ duration: 0.4 }}>
-              <h2 className="text-[#004274] font-bold text-[12px] leading-none">
+              <h2 className="text-[#004274] font-bold font-secondBig text-[12px] leading-none">
                 Muslim Child Academy
               </h2>
-              <p className="text-[#004274] text-[8px] opacity-80 leading-none mt-1">
+              <p className="text-[#004274] text-[8px] font-small opacity-80 leading-none mt-1">
                 একটি শিশু-বান্ধব ইসলামিক শিক্ষা প্রতিষ্ঠান।
               </p>
             </motion.div>
@@ -94,7 +94,7 @@ const Hero = () => {
             <motion.p
               variants={slideInLeft}
               transition={{ duration: 0.4 }}
-              className="text-[#004274] text-[7px] p-1 border border-[#004274]/40 rounded-sm leading-[1.3] font-medium max-w-[200px] bg-white/20 backdrop-blur-[1px]"
+              className="text-[#004274] text-[7px] font-small p-1 border border-[#004274]/40 rounded-sm leading-[1.3] font-medium max-w-[200px] bg-white/20 backdrop-blur-[1px]"
             >
               ৬–১৪ বছর বয়সী শিশুদের জন্য কুরআন, হাদিস, নৈতিকতা ও প্রয়োজনীয়
               দ্বীনি শিক্ষার সমন্বয়ে আমাদের শিক্ষা কারিকুলাম।
@@ -103,7 +103,7 @@ const Hero = () => {
             <motion.h1
               variants={slideInLeft}
               transition={{ duration: 0.5 }}
-              className="text-[12px] font-black text-[#004274] pt-1 leading-[1.2] drop-shadow-sm"
+              className="text-[18px] font-big text-[#004274] pt-1 leading-[1.2] drop-shadow-sm"
             >
               ঈমানের আলোয় গড়ি <br /> শিশুর জীবন
             </motion.h1>
@@ -115,7 +115,7 @@ const Hero = () => {
             >
               <motion.button
                 whileTap={{ scale: 0.92 }}
-                className="bg-[#024a56] text-white font-bold px-4 py-1.5 rounded-xl shadow-md text-[8px] transition-all hover:bg-[#0f8e83] active:scale-95 border-none"
+                className="bg-[#024a56] text-white font-bold font-small px-4 py-1.5 rounded-xl shadow-md text-[8px] transition-all hover:bg-[#0f8e83] active:scale-95 border-none"
               >
                 Book Trial Class
               </motion.button>

@@ -15,8 +15,8 @@ const OurTarget = () => {
           viewport={{ once: true }}
           className=" flex flex-col items-center gap-0.5 pl-4" 
         >
-          <h2 className="text-[#024a56] font-black text-[16px] tracking-tight">আমাদের লক্ষ্য</h2>
-          <div className="flex items-center gap-1 opacity-40 mt-1">
+          <h2 className="text-[#024a56] font-big text-[24px] tracking-tight">আমাদের লক্ষ্য</h2>
+          <div className="flex items-center gap-1 opacity-40">
           <span className="w-8 h-[1px] bg-[#024a56]"></span>
           <div className="flex gap-0.5">
             {[...Array(5)].map((_, i) => (
@@ -44,7 +44,6 @@ const OurTarget = () => {
             />
           </motion.div>
 
-          {/* Right Side: Paragraph Content (উইডথ ৬৫% করা হয়েছে) */}
           <motion.div 
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -52,7 +51,7 @@ const OurTarget = () => {
             viewport={{ once: true }}
             className="w-[65%] flex flex-col justify-center pl-3 pr-2 space-y-2" 
           >
-            <p className="text-[#024a56] text-[10.5px] leading-[1.5] text-justify font-medium">
+            <p className="text-[#024a56] text-[10.5px] leading-[1.5] text-justify font-small">
               বর্তমান প্রজন্মের শিশুদের মধ্যে যেসব সমস্যাগুলো প্রায়শই দেখা যায় যেমন: সহিহভাবে কুরআন তিলাওয়াত, নৈতিকতার অভাব, সময়ের অপচয় ও প্রযুক্তি আসক্তি ইত্যাদি সব সমস্যার সমাধানে পথ খুঁজতেই <span className="text-[#14B1A3] font-bold">“Muslim Child Academy”</span>-র সূচনা। আমাদের লক্ষ্য হলো এমন একটি প্রজন্ম গড়ে তোলা, যারা কুরআন-সুন্নাহভিত্তিক মূল্যবোধে গঠিত এবং দুনিয়া ও আখিরাতে সফল হবে।
             </p>
 
@@ -60,7 +59,7 @@ const OurTarget = () => {
             <motion.div whileTap={{ scale: 0.95 }}>
               <a 
                 href="/" 
-                className="inline-flex items-center gap-1 text-[#14B1A3] font-bold text-[10px] border-b border-[#14B1A3] pb-0.5"
+                className="inline-flex items-center gap-1 text-[#14B1A3] font-bold font-secondBig text-[10px] border-b border-[#14B1A3] pb-0.5"
               >
                 বিস্তারিত পড়ুন <ArrowRight size={12} />
               </a>

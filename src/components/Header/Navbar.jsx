@@ -74,7 +74,7 @@ const Navbar = () => {
                 >
                   <X size={18} className="rotate-90" />
                 </button>
-                <h2 className="text-[#024a56] font-bold text-sm tracking-wide">
+                <h2 className="text-[#024a56] font-bold font-secondBig text-sm tracking-wide">
                   Menu
                 </h2>
                 <div className="w-9 h-9 bg-[#5C6BC0]/10 rounded-full flex items-center justify-center text-[#024a56]">
@@ -96,7 +96,7 @@ const Navbar = () => {
                         to={item.path}
                         onClick={() => setIsOpen(false)}
                         className={({ isActive }) =>
-                          `flex items-center gap-4 text-[17px] font-medium transition-all px-4 py-3 rounded-2xl border ${
+                          `flex items-center gap-4 text-[17px] font-semibold font-secondBig transition-all px-4 py-3 rounded-2xl border ${
                             isActive
                               ? "bg-[#0e8e83]/10 text-[#0e8e83] border-[#0e8e83]/20 shadow-sm"
                               : "bg-transparent text-[#024a56] border-transparent"
@@ -125,7 +125,7 @@ const Navbar = () => {
                     transition={{ delay: navItems.length * 0.05 }}
                     className="mt-2 pb-10" 
                   >
-                    <button className="w-full bg-[#024a56] text-white font-bold py-3 rounded-xl shadow-md text-[14px] flex items-center justify-center gap-2 transition-all hover:bg-[#0f8e83] active:scale-95 border-none">
+                    <button className="w-full bg-[#024a56] text-white font-bold font-secondBig py-3 rounded-xl shadow-md text-[14px] flex items-center justify-center gap-2 transition-all hover:bg-[#0f8e83] active:scale-95 border-none">
                       <LogIn size={18} />
                       Login
                     </button>

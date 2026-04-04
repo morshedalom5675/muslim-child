@@ -22,7 +22,7 @@ const ClassInfo = () => {
           className="flex justify-end mb-4 mr-4 md:mr-9"
         >
           <div className="bg-[#CCF7F4] px-4 py-1 rounded-md">
-            <h2 className="text-[#024a56] font-black text-[14px]">
+            <h2 className="text-[#024a56] font-big text-[22px]">
               ক্লাস সংক্রান্ত তথ্য
             </h2>
           </div>
@@ -52,7 +52,7 @@ const ClassInfo = () => {
             viewport={{ once: true }}
             className="w-[55%] bg-white border border-gray-100 rounded-2xl p-3 shadow-[0_8px_30px_rgb(0,0,0,0.06)]"
           >
-            <h3 className="text-[#2D6A7E] font-bold text-[13px] text-center mb-3">
+            <h3 className="text-[#2D6A7E] font-bold font-secondBig text-[13px] text-center mb-3">
               সপ্তাহে <span className="text-[#E67E22]">৪ দিন</span> ক্লাস
             </h3>
 
@@ -65,15 +65,15 @@ const ClassInfo = () => {
               className="bg-[#F2F2F2] rounded-lg p-2 flex items-center gap-2 mb-2"
             >
               <div className="flex flex-col items-center justify-center border-r border-gray-300 pr-2">
-                <span className="text-[#E67E22] font-bold text-[12px]">
+                <span className="text-[#E67E22] font-bold font-secondBig text-[12px]">
                   ৩ দিন
                 </span>
               </div>
               <div className="flex flex-col">
-                <span className="text-[#024a56] font-bold text-[11px]">
+                <span className="text-[#024a56] font-bold font-secondBig text-[11px]">
                   আরবি ক্লাস
                 </span>
-                <span className="text-[#555] text-[9px] leading-tight">
+                <span className="text-[#555] text-[9px] font-small leading-tight">
                   ক্লাসের সময়: ১ঘণ্টা <br />
                   ব্যাচ শিক্ষার্থী: ২৫ জন <br />
                   মাসে ১২টি আরবি ক্লাস
@@ -90,15 +90,15 @@ const ClassInfo = () => {
               className="bg-[#F2F2F2] rounded-lg p-2 flex items-center gap-2"
             >
               <div className="flex flex-col items-center justify-center border-r border-gray-300 pr-2">
-                <span className="text-[#E67E22] font-bold text-[12px]">
+                <span className="text-[#E67E22] font-bold font-secondBig text-[12px]">
                   ১ দিন
                 </span>
               </div>
               <div className="flex flex-col">
-                <span className="text-[#024a56] font-bold text-[11px]">
+                <span className="text-[#024a56] font-bold font-secondBig text-[11px]">
                   স্পেশাল ক্লাস
                 </span>
-                <span className="text-[#555] text-[9px]">প্রতি: শুক্রবার</span>
+                <span className="text-[#555] text-[9px] font-small">প্রতি: শুক্রবার</span>
               </div>
             </motion.div>
           </motion.div>

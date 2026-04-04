@@ -28,10 +28,10 @@ const SyllabusHome = () => {
     >
       {/* Header Section */}
       <div className="flex flex-col items-center mb-4">
-        <h2 className="text-[16px] font-black text-[#024a56] tracking-tight">
+        <h2 className="text-[22px] font-big text-[#024a56] tracking-tight">
           সংক্ষিপ্ত সিলেবাস
         </h2>
-        <div className="flex items-center gap-1 opacity-40 mt-1">
+        <div className="flex items-center gap-1 opacity-40">
           <span className="w-8 h-[1px] bg-[#024a56]"></span>
           <div className="flex gap-0.5">
             {[...Array(5)].map((_, i) => (
@@ -60,7 +60,7 @@ const SyllabusHome = () => {
                 <div className="flex-shrink-0">
                   <div className="w-1 h-1 bg-[#0e8e83] rotate-45" />
                 </div>
-                <span className="text-[9px] font-bold text-[#444] leading-tight">
+                <span className="text-[9px] font-bold font-small text-[#444] leading-tight">
                   {text}
                 </span>
               </motion.li>

@@ -25,7 +25,7 @@ const Features = () => {
     >
       {/* Header Section */}
       <div className="flex flex-col items-center mb-3">
-        <h2 className="text-[16px] font-black text-[#024a56] tracking-tight">
+        <h2 className="text-[22px] font-big text-[#024a56] tracking-tight">
           আমাদের কিছু বৈশিষ্ট্য
         </h2>
         <div className="flex items-center gap-1 opacity-40 mt-1">
@@ -59,7 +59,7 @@ const Features = () => {
                 <div className="flex-shrink-0">
                   <div className="w-1 h-1 bg-[#f59e0b] rotate-45" />
                 </div>
-                <span className="text-[8px] font-bold text-[#333]">{text}</span>
+                <span className="text-[8px] font-bold font-small text-[#333]">{text}</span>
               </motion.li>
             ))}
           </ul>

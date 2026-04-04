@@ -39,10 +39,10 @@ const FeeInfo = () => {
         >
           {/* Header */}
           <div className="flex flex-col items-center mb-4">
-            <h2 className="text-[#024a56] font-black text-[15px] leading-tight">
+            <h2 className="text-[#024a56] font-big text-[22px] leading-tight">
               ফি সংক্রান্ত তথ্য
             </h2>
-            <p className="text-[11px] text-gray-400 font-bold ">
+            <p className="text-[11px] text-gray-400 font-bold font-secondBig">
               Fee Related Information
             </p>
             
@@ -64,15 +64,15 @@ const FeeInfo = () => {
           {/* Fee Boxes */}
           <div className="flex gap-2">
             <div className="flex-1 border border-gray-100 rounded-xl p-2 text-center bg-[#F9FAFB]">
-              <p className="text-[#555] text-[10px] font-bold mb-1">এডমিশন ফি</p>
-              <h3 className="text-[#024a56] font-black text-[18px]">৩০০৳</h3>
-              <p className="text-[#E67E22] text-[8px] font-bold mt-1">অগ্নিম</p>
+              <p className="text-[#555] text-[10px] font-bold font-secondBig mb-1">এডমিশন ফি</p>
+              <h3 className="text-[#024a56] font-black font-secondBig  text-[18px]">৩০০৳</h3>
+              <p className="text-[#E67E22] text-[8px] font-bold font-small mt-1">অগ্নিম</p>
             </div>
 
             <div className="flex-1 border border-gray-100 rounded-xl p-2 text-center bg-[#F9FAFB]">
-              <p className="text-[#555] text-[10px] font-bold mb-1">মাসিক ফি</p>
-              <h3 className="text-[#024a56] font-black text-[18px]">১০২০৳</h3>
-              <p className="text-[#555] text-[7px] leading-tight mt-1">
+              <p className="text-[#555] text-[10px] font-bold font-secondBig mb-1">মাসিক ফি</p>
+              <h3 className="text-[#024a56] font-black font-secondBig text-[18px]">১০২০৳</h3>
+              <p className="text-[#555] text-[7px] leading-tight font-small mt-1">
                 মাস শেষে পরিশোধ করতে হয়
               </p>
             </div>

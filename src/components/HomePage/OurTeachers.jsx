@@ -64,10 +64,10 @@ const OurTeachers = () => {
     >
       {/* Header Section with Features Divider Style */}
       <div className="flex flex-col items-center mb-8">
-        <h2 className="text-[16px] font-black text-[#024a56] tracking-tight">
+        <h2 className="text-[22px] font-big text-[#024a56] tracking-tight">
           আমাদের শিক্ষকগণ
         </h2>
-        <div className="flex items-center gap-1 opacity-40 mt-1">
+        <div className="flex items-center gap-1 opacity-40">
           <span className="w-8 h-[1px] bg-[#024a56]"></span>
           <div className="flex gap-0.5">
             {[...Array(5)].map((_, i) => (
@@ -108,13 +108,13 @@ const OurTeachers = () => {
 
             {/* Info Section */}
             <div className="text-center w-full px-1 mb-3">
-              <h3 className="text-[8px] font-black text-[#1a1a1a] leading-tight uppercase tracking-tighter mb-0.5 truncate">
+              <h3 className="text-[8px] font-black font-secondBig text-[#1a1a1a] leading-tight uppercase tracking-tighter mb-0.5 truncate">
                 {teacher.name}
               </h3>
-              <p className="text-[6px] font-bold text-sky-500 my-1.5 leading-none uppercase">
+              <p className="text-[6px] font-bold font-small text-sky-500 my-1.5 leading-none uppercase">
                 {teacher.designation}
               </p>
-              <p className="text-[6px] text-gray-500 leading-[1.2] font-medium tracking-tight h-[28px] ">
+              <p className="text-[7px] text-gray-500 leading-[1.2] font-medium font-small tracking-tight h-[28px] ">
                 {teacher.description}
               </p>
             </div>
