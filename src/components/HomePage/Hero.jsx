@@ -65,7 +65,7 @@ const Hero = () => {
   return (
     <div className="w-full bg-white select-none">
       {/* Hero Section */}
-      <section className="relative h-[200px] w-full pt-4 overflow-hidden">
+      <section className="relative h-50 w-full pt-4 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-top z-0"
           style={{
@@ -94,7 +94,7 @@ const Hero = () => {
             <motion.p
               variants={slideInLeft}
               transition={{ duration: 0.4 }}
-              className="text-[#004274] text-[7px] font-small p-1 border border-[#004274]/40 rounded-sm leading-[1.3] font-medium max-w-[200px] bg-white/20 backdrop-blur-[1px]"
+              className="text-[#004274] text-[7px] font-small p-1 border border-[#004274]/40 rounded-sm leading-[1.3] font-medium max-w-50 bg-white/20 backdrop-blur-[1px]"
             >
               ৬–১৪ বছর বয়সী শিশুদের জন্য কুরআন, হাদিস, নৈতিকতা ও প্রয়োজনীয়
               দ্বীনি শিক্ষার সমন্বয়ে আমাদের শিক্ষা কারিকুলাম।

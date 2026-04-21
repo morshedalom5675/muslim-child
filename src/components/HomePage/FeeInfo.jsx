@@ -12,7 +12,7 @@ const FeeInfo = () => {
       className="pt-0 pb-0 bg-white overflow-hidden mobile-device select-none relative"
     >
       
-      <div className="w-full h-[28px] bg-[#024a56] mb-6"></div>
+      <div className="w-full h-4 bg-[#024a56] mb-6"></div>
       <div className="max-w-7xl mx-auto flex items-center justify-between gap-3 px-4 mb-6">
         {/* Left Side: Payment Image */}
         <motion.div
@@ -46,16 +46,16 @@ const FeeInfo = () => {
               Fee Related Information
             </p>
             
-            <div className="w-full h-[1px] bg-gray-100 mt-3 relative">
+            <div className="w-full h-px bg-gray-100 mt-3 relative">
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white px-2">
                 <div className="flex items-center gap-1 opacity-40">
-                  <span className="w-8 h-[1px] bg-[#024a56]"></span>
+                  <span className="w-8 h-px bg-[#024a56]"></span>
                   <div className="flex gap-0.5">
                     {[...Array(5)].map((_, i) => (
                       <span key={i} className="w-0.5 h-0.5 bg-[#024a56] rounded-full"></span>
                     ))}
                   </div>
-                  <span className="w-8 h-[1px] bg-[#024a56]"></span>
+                  <span className="w-8 h-px bg-[#024a56]"></span>
                 </div>
               </div>
             </div>
@@ -81,7 +81,7 @@ const FeeInfo = () => {
       </div>
 
       
-      <div className="w-full h-[28px] bg-[#024a56]"></div>
+      <div className="w-full h-4 bg-[#024a56]"></div>
     </motion.section>
   );
 };

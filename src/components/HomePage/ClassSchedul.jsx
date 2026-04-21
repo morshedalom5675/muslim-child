@@ -43,7 +43,7 @@ const ClassSchedule = () => {
           <div className="space-y-2.5 font-small">
             {/* Group A - Single Line */}
             <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar">
-              <span className="bg-[#8B5E3C] text-white text-[6.5px] md:text-[9px] font-semibold md:font-bold px-1.5 py-0.5 rounded-md flex-shrink-0">
+              <span className="bg-[#8B5E3C] text-white text-[6.5px] md:text-[9px] font-semibold md:font-bold px-1.5 py-0.5 rounded-md shrink-0">
                 গ্রুপ A
               </span>
               <div className="flex gap-0.5">
@@ -60,7 +60,7 @@ const ClassSchedule = () => {
 
             {/* Group B - Single Line */}
             <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar">
-              <span className="bg-[#D35400] text-white text-[6.5px] md:text-[9px] font-semibold md:font-bold px-1.5 py-0.5 rounded-md flex-shrink-0">
+              <span className="bg-[#D35400] text-white text-[6.5px] md:text-[9px] font-semibold md:font-bold px-1.5 py-0.5 rounded-md shrink-0">
                 গ্রুপ B
               </span>
               <div className="flex gap-0.5">

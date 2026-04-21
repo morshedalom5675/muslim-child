@@ -29,7 +29,7 @@ const Features = () => {
           আমাদের কিছু বৈশিষ্ট্য
         </h2>
         <div className="flex items-center gap-1 opacity-40 mt-1">
-          <span className="w-8 h-[1px] bg-[#024a56]"></span>
+          <span className="w-8 h-px bg-[#024a56]"></span>
           <div className="flex gap-0.5">
             {[...Array(5)].map((_, i) => (
               <span
@@ -38,7 +38,7 @@ const Features = () => {
               ></span>
             ))}
           </div>
-          <span className="w-8 h-[1px] bg-[#024a56]"></span>
+          <span className="w-8 h-px bg-[#024a56]"></span>
         </div>
       </div>
 
@@ -56,7 +56,7 @@ const Features = () => {
                 transition={{ delay: index * 0.03, duration: 0.3 }}
                 className="flex items-center gap-1.5 whitespace-nowrap"
               >
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="w-1 h-1 bg-[#f59e0b] rotate-45" />
                 </div>
                 <span className="text-[8px] font-bold font-small text-[#333]">{text}</span>
@@ -66,7 +66,7 @@ const Features = () => {
         </div>
 
         {/* Right Side: Image Section */}
-        <div className="flex-shrink-0">
+        <div className="shrink-0">
           <motion.div
             initial={{ opacity: 0, scale: 0.9, x: 10 }}
             whileInView={{ opacity: 1, scale: 1, x: 0 }}

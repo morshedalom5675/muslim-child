@@ -72,14 +72,14 @@ const SyllabusSection = () => {
           আধুনিক ও দ্বীনি শিক্ষার এক চমৎকার সমন্বয়
         </p>
         <div className="flex items-center gap-2 opacity-30 mt-1">
-          <span className="w-8 h-[1px] bg-[#024a56]"></span>
+          <span className="w-8 h-px bg-[#024a56]"></span>
           <span className="text-[8px]">✦</span>
-          <span className="w-8 h-[1px] bg-[#024a56]"></span>
+          <span className="w-8 h-px bg-[#024a56]"></span>
         </div>
       </div>
 
       {/* Main Container - Text & Image */}
-      <div className="flex items-center justify-between gap-4 min-h-[190px]">
+      <div className="flex items-center justify-between gap-4 min-h-47.5">
         {/* Left Side: Bullet Points */}
         <div className="w-[60%] flex flex-col justify-center">
           <AnimatePresence mode="wait">
@@ -93,7 +93,7 @@ const SyllabusSection = () => {
             >
               {syllabusSlides[currentIndex].topics.map((topic, index) => (
                 <li key={index} className="flex items-start gap-2">
-                  <div className="w-2 h-2 bg-[#0e8e83] rotate-45 mt-1.5 flex-shrink-0 shadow-sm" />
+                  <div className="w-2 h-2 bg-[#0e8e83] rotate-45 mt-1.5 shrink-0 shadow-sm" />
                   <span className="text-[12px] font-bold text-[#444] leading-tight">
                     {topic}
                   </span>
@@ -114,7 +114,7 @@ const SyllabusSection = () => {
                 animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
                 exit={{ opacity: 0, scale: 1.05, filter: "blur(4px)" }}
                 transition={{ duration: 0.7, ease: "easeInOut" }}
-                className="max-w-full h-auto max-h-[140px] object-contain drop-shadow-xl"
+                className="max-w-full h-auto max-h-35 object-contain drop-shadow-xl"
                 alt="Syllabus"
               />
             </AnimatePresence>

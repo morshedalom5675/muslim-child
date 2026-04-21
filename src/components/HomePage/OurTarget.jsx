@@ -17,13 +17,13 @@ const OurTarget = () => {
         >
           <h2 className="text-[#024a56] font-big text-[24px] tracking-tight">আমাদের লক্ষ্য</h2>
           <div className="flex items-center gap-1 opacity-40">
-          <span className="w-8 h-[1px] bg-[#024a56]"></span>
+          <span className="w-8 h-px bg-[#024a56]"></span>
           <div className="flex gap-0.5">
             {[...Array(5)].map((_, i) => (
               <span key={i} className="w-0.5 h-0.5 border border-[#024a56] rounded-full"></span>
             ))}
           </div>
-          <span className="w-8 h-[1px] bg-[#024a56]"></span>
+          <span className="w-8 h-px bg-[#024a56]"></span>
         </div>
         </motion.div>
 
@@ -34,7 +34,7 @@ const OurTarget = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="w-[35%] flex-shrink-0"
+            className="w-[35%] shrink-0"
           >
             <img 
               src={target} 
@@ -51,7 +51,7 @@ const OurTarget = () => {
             viewport={{ once: true }}
             className="w-[65%] flex flex-col justify-center pl-3 pr-2 space-y-2" 
           >
-            <p className="text-[#024a56] text-[10.5px] leading-[1.5] text-justify font-small">
+            <p className="text-[#024a56] text-[10.5px] leading-normal text-justify font-small">
               বর্তমান প্রজন্মের শিশুদের মধ্যে যেসব সমস্যাগুলো প্রায়শই দেখা যায় যেমন: সহিহভাবে কুরআন তিলাওয়াত, নৈতিকতার অভাব, সময়ের অপচয় ও প্রযুক্তি আসক্তি ইত্যাদি সব সমস্যার সমাধানে পথ খুঁজতেই <span className="text-[#14B1A3] font-bold">“Muslim Child Academy”</span>-র সূচনা। আমাদের লক্ষ্য হলো এমন একটি প্রজন্ম গড়ে তোলা, যারা কুরআন-সুন্নাহভিত্তিক মূল্যবোধে গঠিত এবং দুনিয়া ও আখিরাতে সফল হবে।
             </p>
 

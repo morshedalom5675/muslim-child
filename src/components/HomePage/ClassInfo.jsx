@@ -5,7 +5,6 @@ import studentImg from "../../assets/image/children5.png";
 const ClassInfo = () => {
   return (
     <motion.section
-      // পুরো সেকশনটি নিচ থেকে হালকাভাবে ভেসে উঠবে (Features সেকশনের মতো)
       initial={{ opacity: 0, y: 15 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
